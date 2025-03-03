@@ -6,7 +6,7 @@ This repository contains an implementation of the U-Net model for segmenting cor
 
 Before running the model, ensure you have the necessary dependencies installed. The following instructions will guide you through the setup process.
 
-### 1. Clone the Repository
+### Clone the Repository
 
 First, clone this repository to your local machine:
 
@@ -14,7 +14,7 @@ First, clone this repository to your local machine:
 git clone https://github.com/....../this_repo.git
 cd this_repo
 
-2. Install Required Dependencies
+Install Required Dependencies
 You will need Python 3.6+ and the required libraries. It is recommended to create a virtual environment:
 
 python -m venv venv
@@ -31,14 +31,14 @@ python train.py
 
 This will begin the training process, where the model will learn to segment the core multi-component images. You can adjust training parameters in train.py (such as the learning rate, batch size, etc.) to fine-tune the training process.
 
-2. Testing the Model
+Testing the Model
 After training is complete, you can test the model with the following command:
 python test.py
 
 
 This will evaluate the model on the test dataset and output the segmentation results.
 
-3. Configuration
+Configuration
 You can modify the hyperparameters, paths, and other settings in the train.py and test.py files. For example, you can specify the dataset location, number of epochs, and the model save directory.
 
 Model Architecture
